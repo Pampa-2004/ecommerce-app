@@ -1,16 +1,62 @@
-# React + Vite
+# 🛒 Ecommerce Web Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+👉 https://ecommerce-store-eight-tau.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
+This is a modern frontend Ecommerce Web Application built using React.  
+It simulates a real shopping experience where users can browse products, view product details, and manage a shopping cart.
 
-## React Compiler
+The goal of this project is to demonstrate understanding of React fundamentals, component-based architecture, state management, and UI design principles.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛍️ Product listing page with clean UI
+- 🔍 Product details page
+- 🛒 Add to cart functionality
+- ❌ Remove items from cart
+- 📦 Cart state management using Context API
+- 📱 Fully responsive design (mobile + desktop)
+- 🔄 Client-side routing using React Router
+- ⚡ Fast performance using Vite
+- 🎨 Modern UI with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Router DOM
+- Context API
+
+---
+
+## 📂 Project Structure
+src/
+│
+├── components/ # Reusable UI components
+├── pages/ # App pages (Home, Cart, Product, etc.)
+├── context/ # Cart state management
+├── services/ # API logic
+├── assets/ # Images
+├── App.jsx # Main component
+└── main.jsx # Entry point
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Pampa-2004/ecommerce-app.git
+cd ecommerce-app
+npm install
+npm run dev
