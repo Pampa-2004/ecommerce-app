@@ -105,9 +105,10 @@ function Products() {
           .map((item) => (
             <div
               key={item.id}
-              className="border p-4 rounded-lg shadow-md text-center"
-            >
-              <img src={item.image} className="w-28 mx-auto" />
+              className="border p-4 rounded-lg shadow-md text-center transition-all duration-300 hover:scale-105 hover:shadow-xl"
+>"
+            
+              <img src={item.image} className="w-28 mx-auto transition-transform duration-300 hover:scale-110" />
 
               <Link to={`/product/${item.id}`}>
                 <h3 className="text-blue-600 cursor-pointer text-sm mt-2">
@@ -120,7 +121,7 @@ function Products() {
               </p>
 
               <button
-                className="bg-blue-500 text-white px-3 py-2 rounded mt-2"
+                className="bg-blue-500 text-white px-3 py-2 rounded mt-2 transition-all duration-200 hover:scale-105 active:scale-95"
                 onClick={() => {
                   addToCart(item);
                   alert("Added to cart");
